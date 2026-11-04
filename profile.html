@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>starfloweR | Profile</title>
+    <link rel="icon" type="image/jpeg" href="images/avatar.jpg">
+    <style>
+        body {
+            background-color: #1a1a1a;
+            color: #f0f0f0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #242424;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+            border-top: 5px solid #ff4d4d;
+            position: relative;
+        }
+        /* Кнопка смены языка */
+        .lang-btn {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #333;
+            color: #fff;
+            border: 1px solid #555;
+            padding: 8px 16px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 1.1rem;
+            transition: 0.3s;
+        }
+        .lang-btn:hover {
+            background: #ff4d4d;
+            border-color: #ff4d4d;
+        }
+        h1 { color: #ff4d4d; text-align: center; text-transform: uppercase; letter-spacing: 2px; margin-top: 0; }
+        h2 { color: #ff4d4d; border-bottom: 1px solid #444; padding-bottom: 5px; margin-top: 30px; }
+        h3 { color: #a3f5e6; margin-bottom: 10px; }
+        .quote {
+            font-style: italic;
+            color: #a3f5e6;
+            text-align: center;
+            font-size: 1.1rem;
+            margin-bottom: 30px;
+            padding: 15px;
+            background: #1e1e1e;
+            border-left: 4px solid #a3f5e6;
+            border-radius: 5px;
+        }
+        a { color: #a3f5e6; text-decoration: none; transition: 0.2s; }
+        a:hover { color: #ff4d4d; text-decoration: underline; }
+        ul { list-style-type: square; padding-left: 20px; }
+        li { margin-bottom: 10px; }
+        .highlight { color: #ff4d4d; font-weight: bold; }
+        .code-block {
+            background: #111;
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-family: monospace;
+            color: #a3f5e6;
+        }
+        .nav-btn {
+            display: inline-block;
+            background: #ff4d4d;
+            color: white;
+            padding: 12px 24px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 30px;
+            transition: 0.2s;
+        }
+        .nav-btn:hover {
+            background: #cc0000;
+            color: white;
+            text-decoration: none;
+            box-shadow: 0 4px 15px rgba(255, 77, 77, 0.4);
+        }
+        .text-center { text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Кнопка переключения языка -->
+    <button class="lang-btn" onclick="toggleLang()" id="langBtn">🇬🇧 EN</button>
+
+    <!-- ================= РУССКАЯ ВЕРСИЯ ================= -->
+    <div id="content-ru">
+        <h1>starfloweR</h1>
+        
+        <div class="quote">🟢 Человек может совершать одни и те же ошибки, если у него недостаточно мотивации и желания это изменить</div>
+
+        <p>Привет! Меня зовут Дима. Мой игровой никнейм в OSU — <strong>starfloweR</strong>. Также меня знают под никами: <em>ekky</em>, <em>dimachyo</em>. Ссылка на мой профиль — <a href="https://osu.ppy.sh/users/39317806" target="_blank">ТЫК</a>. <strong>В планах до конца 2026 года достичь <span class="highlight">3000pp</span> и купить новый монитор 240hz.</strong></p>
+
+        <h3>Играю на девайсах:</h3>
+        <ol>
+            <li><strong>Клавиатура</strong> — <a href="https://ibb.co/qQ56DzN" target="_blank">MCHOSE Ace 68</a></li>
+            <li><strong>Планшет</strong> — <a href="https://ibb.co/jkWsqtqJ" target="_blank">Gaomon S620</a></li>
+            <li><strong>Монитор</strong> — ASUS VG248 165hz</li>
+        </ol>
+
+        <h3>🏆 Мои Top Scores (top 3):</h3>
+        <ol>
+            <li><span class="highlight">157pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1148073#osu/2405223" target="_blank">One by One</a> ; Hard ; 5.13 (dt) ⚝</li>
+            <li><span class="highlight">132pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1690608#osu/3470689" target="_blank">Flower (TV Size)</a> ; Yogurtt's Insane ; 4.66 ⚝</li>
+            <li><span class="highlight">125pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1780595#osu/3705203" target="_blank">risuyu krov'yu</a> ; paradoxa's insane ; 4.46 ⚝</li>
+        </ol>
+
+        <h2>Результаты в других играх</h2>
+        <ul>
+            <li><strong>R6 Siege</strong> — Champion <a href="https://ibb.co/HTGkYfkB" target="_blank">[ТЫК]</a></li>
+            <li><strong>VALORANT</strong> — IMMORTAL 3 258RR <a href="https://ibb.co/xqWgZpr8" target="_blank">[ТЫК]</a></li>
+            <li><strong>Kovaak's</strong> — Voltaic S4 Grandmaster <a href="https://ibb.co/8nvvXkSc" target="_blank">[ТЫК]</a></li>
+        </ul>
+
+        <h2>Aim Specs:</h2>
+        <ul>
+            <li><strong>Valorant:</strong> <span class="code-block">0.116</span> на <span class="code-block">1600 DPI</span> (70.38 см / 360°)</li>
+            <li><strong>osu! / OTD Area:</strong> <span class="code-block">72.462 х 51.76 мм</span></li>
+            <li><strong>Тип хвата:</strong> Когтевой</li>
+            <li><strong>Mouse:</strong> <a href="https://ibb.co/JWnWSvqc" target="_blank">WLMOUSE Beast X Max</a></li>
+            <li><strong>Glides:</strong> <a href="https://ibb.co/B5DD8L7D" target="_blank">Errennir POM mouse skates</a></li>
+            <li><strong>Mousepad:</strong> <a href="https://ibb.co/PGH4xtXz" target="_blank">TALONGAMES ULTRA Series P2</a> / <a href="https://ibb.co/CsSSMKfc" target="_blank">X-raypad Aqua Control Plus Wave Storm</a></li>
+            <li><strong>Sleeve:</strong> <a href="https://ibb.co/7N0PyR4F" target="_blank">WaveKit "Okarun-67"</a> / <a href="https://ibb.co/MQG2ZY1" target="_blank">Cisa V2</a></li>
+        </ul>
+    </div>
+
+    <!-- ================= АНГЛИЙСКАЯ ВЕРСИЯ ================= -->
+    <div id="content-en" style="display: none;">
+        <h1>starfloweR</h1>
+        
+        <div class="quote">🟢 A person can make the same mistakes over and over if they lack the motivation and desire to change.</div>
+
+        <p>Hi! My name is Dima. My osu! nickname is <strong>starfloweR</strong>. Also known as: <em>ekky</em>, <em>dimachyo</em>. Profile link — <a href="https://osu.ppy.sh/users/39317806" target="_blank">CLICK</a>. <strong>My goal is to reach <span class="highlight">3000pp</span> by the end of 2026 and buy a new 240hz monitor.</strong></p>
+
+        <h3>My devices:</h3>
+        <ol>
+            <li><strong>Keyboard</strong> — <a href="https://ibb.co/qQ56DzN" target="_blank">MCHOSE Ace 68</a></li>
+            <li><strong>Tablet</strong> — <a href="https://ibb.co/jkWsqtqJ" target="_blank">Gaomon S620</a></li>
+            <li><strong>Monitor</strong> — ASUS VG248 165hz</li>
+        </ol>
+
+        <h3>🏆 My Top Scores (top 3):</h3>
+        <ol>
+            <li><span class="highlight">157pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1148073#osu/2405223" target="_blank">One by One</a> ; Hard ; 5.13 (dt) ⚝</li>
+            <li><span class="highlight">132pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1690608#osu/3470689" target="_blank">Flower (TV Size)</a> ; Yogurtt's Insane ; 4.66 ⚝</li>
+            <li><span class="highlight">125pp</span> — <a href="https://osu.ppy.sh/beatmapsets/1780595#osu/3705203" target="_blank">risuyu krov'yu</a> ; paradoxa's insane ; 4.46 ⚝</li>
+        </ol>
+
+        <h2>Achievements in other games</h2>
+        <ul>
+            <li><strong>R6 Siege</strong> — Champion <a href="https://ibb.co/HTGkYfkB" target="_blank">[CLICK]</a></li>
+            <li><strong>VALORANT</strong> — IMMORTAL 3 258RR <a href="https://ibb.co/xqWgZpr8" target="_blank">[CLICK]</a></li>
+            <li><strong>Kovaak's</strong> — Voltaic S4 Grandmaster <a href="https://ibb.co/8nvvXkSc" target="_blank">[CLICK]</a></li>
+        </ul>
+
+        <h2>Aim Specs:</h2>
+        <ul>
+            <li><strong>Valorant:</strong> <span class="code-block">0.116</span> at <span class="code-block">1600 DPI</span> (70.38 cm / 360°)</li>
+            <li><strong>osu! / OTD Area:</strong> <span class="code-block">72.462 x 51.76 mm</span></li>
+            <li><strong>Grip style:</strong> Claw grip</li>
+            <li><strong>Mouse:</strong> <a href="https://ibb.co/JWnWSvqc" target="_blank">WLMOUSE Beast X Max</a></li>
+            <li><strong>Glides:</strong> <a href="https://ibb.co/B5DD8L7D" target="_blank">Errennir POM mouse skates</a></li>
+            <li><strong>Mousepad:</strong> <a href="https://ibb.co/PGH4xtXz" target="_blank">TALONGAMES ULTRA Series P2</a> / <a href="https://ibb.co/CsSSMKfc" target="_blank">X-raypad Aqua Control Plus Wave Storm</a></li>
+            <li><strong>Sleeve:</strong> <a href="https://ibb.co/7N0PyR4F" target="_blank">WaveKit "Okarun-67"</a> / <a href="https://ibb.co/MQG2ZY1" target="_blank">Cisa V2</a></li>
+        </ul>
+    </div>
+
+    <div class="text-center">
+        <a href="index.html" class="nav-btn">My Skins</a>
+    </div>
+
+</div>
+
+<script>
+    let isRu = true;
+
+    function toggleLang() {
+        const ru = document.getElementById('content-ru');
+        const en = document.getElementById('content-en');
+        const btn = document.getElementById('langBtn');
+
+        if (isRu) {
+            ru.style.display = 'none';
+            en.style.display = 'block';
+            btn.innerHTML = '🇷🇺 RU';
+            isRu = false;
+        } else {
+            ru.style.display = 'block';
+            en.style.display = 'none';
+            btn.innerHTML = '🇬🇧 EN';
+            isRu = true;
+        }
+    }
+</script>
+
+</body>
+</html>
