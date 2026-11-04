@@ -135,7 +135,27 @@
             width: 100%;
             max-width: 1100px;
         }
+        /* Стиль для кнопки визитки */
+        
+        .profile-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 24px;
+            background-color: var(--bg-card);
+            color: var(--text-main);
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            font-size: 1rem;
+            border: 1px solid var(--nav-border);
+            transition: all 0.3s ease;
+        }
 
+        .profile-btn:hover {
+            background-color: var(--bg-card-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
         .skin-card {
             background-color: var(--bg-card);
             border-radius: 8px;
