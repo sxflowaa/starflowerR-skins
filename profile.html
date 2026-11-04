@@ -92,7 +92,7 @@
 
 <div class="container">
     <!-- Кнопка переключения языка -->
-    <button class="lang-btn" onclick="toggleLang()" id="langBtn">🇬🇧 EN</button>
+    <button class="lang-btn" onclick="toggleLang()" id="langBtn">RU</button>
 
     <!-- ================= РУССКАЯ ВЕРСИЯ ================= -->
     <div id="content-ru">
@@ -193,12 +193,12 @@
         if (isRu) {
             ru.style.display = 'none';
             en.style.display = 'block';
-            btn.innerHTML = '🇷🇺 RU';
+            btn.innerHTML = 'RUS';
             isRu = false;
         } else {
             ru.style.display = 'block';
             en.style.display = 'none';
-            btn.innerHTML = '🇬🇧 EN';
+            btn.innerHTML = 'ENG';
             isRu = true;
         }
     }
